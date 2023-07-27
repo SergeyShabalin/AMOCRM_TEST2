@@ -7,74 +7,95 @@
     <title>2 task</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="./index.css"/>
+    <link rel="stylesheet" href="./GlobalStyles.css"/>
 </head>
 <body>
-<main class="container">
-
+<div class="content">
     <section class="header">
-        <div class="header_top">
-            <div class="logo_wrapper">
-                <div class="logo1"><img src="assets/logo.png"></div>
-                <div class="logo2"><img src="assets/logo2.png"></div>
-                <div class="logo_label"><p>крупный интегратор CRM в Росcии и ещё 8 странах</p></div>
+        <div class="logo_wrapper">
+            <div class="logo">
+                <img src="assets/logo.png">
+                <img class="logo2" src="assets/logo2.png">
             </div>
-
-            <div class="menu_important">
-                <div class="links">
-                    <a class="header_link">Услуги</a>
-                    <a class="header_link">Виджеты</a>
-                    <a class="header_link">Интеграции</a>
-                    <a class="header_link">Кейсы</a>
-                    <a class="header_link">Сертификаты</a>
-                </div>
-                <div class="telephone_number"><span>+7 555 555-55-55</span></div>
-                <div class="links_communication">
-                    <a class="header_link_label"><img class="logo" src="assets/telegram.png"> </a>
-                    <a class="header_link_label"><img class="logo" src="assets/viber.png"></a>
-                    <a class="header_link_label"><img class="logo" src="assets/whatsapp.png"></a>
-                </div>
+            <p class="logo_label"> крупный интегратор CRM в Росcии и ещё 8 странах </p>
+        </div>
+        <div class="menu_important">
+            <div class="links">
+                <a>Услуги</a>
+                <a>Виджеты</a>
+                <a>Интеграции</a>
+                <a>Кейсы</a>
+                <a class="hide_link_for_mobile">Сертификаты</a>
+            </div>
+            <a class="telephone_number_up" href="tel:+7555-555-55-55">+7 555 555-55-55</a>
+            <div class="links_communication">
+                <a href="https://t.me/sssworksss"><img alt="Картинка не загружена" src="assets/telegram.png"> </a>
+                <a href="viber://chat?number=%+79992253720"><img alt="Картинка не загружена" src="assets/viber.png"></a>
+                <a href="https://wa.me/971583048178?text=Здравствуйте, Сергей.%20Вы%20выполнили%20тестовое%20AMO_CRM."><img
+                        alt="Картинка не загружена" src="assets/whatsapp.png"></a>
             </div>
         </div>
-
     </section>
 
 
-    <section class="body">
-        <div class="banners">
-            <div class="left_banner_container">
-                <div class="left_banner_first"><span>Зарабатывайте больше</span></div>
-                <div class="left_banner_second"><span>с WELBEX</span></div>
-                <div class="left_banner_third"><p>Развиваем и контролируем продажи за вас</p></div>
-            </div>
-            <div class="right_banner_container">
-                <div class="header_banner_right">
-                        <span>Вместе с 
-                         <span class="title_banner_right_free">бесплатной консультацией</span>
-                              мы дарим:
-                         </span>
+    <section class="banners">
+        <div class="left_banner_container">
+            <h1>Зарабатывайте больше</h1>
+            <h1 class="left_banner_second">с WELBEX</h1>
+            <h2>Развиваем и контролируем продажи за вас</h2>
+        </div>
+        <div class="right_banner_container">
+            <h3 class="header_banner_right">
+                Вместе с
+                <span class="title_banner_right_free">бесплатной консультацией</span>
+                мы дарим:
+            </h3>
+
+            <div class="content_banner_right">
+                <div class="banner">
+                    <h3>ВИДЖЕТЫ</h3>
+                    <h4>30 готовых решений</h4>
                 </div>
-                <div class="first_banner"><span>ВИДЖЕТЫ</span></div>
-                <div class="second_banner">
-                    <div class="line_banner"></div>
-                    <span>DASHBOARD</span></div>
-                <div class="third_banner"><span>30 готовых решений</span></div>
-                <div class="third_banner_mobile">
-                    <div class="line_banner"></div>
-                    <span>30 виджетов</span></div>
-                <div class="fourth_banner"><span>с показателями вашего бизнеса</span></div>
-                <div class="fifth_banner">
-                    <div class="line_banner"></div>
-                    <span>SKYPE АУДИТ</span></div>
-                <div class="sixth_banner"><span>35 ДНЕЙ</span></div>
-                <div class="sixth_banner_mobile">
-                    <div class="line_banner"></div>
-                    <span>Месяц AMO CRM</span></div>
-                <div class="seventh_banner"><span>отдела продаж и CRM системы</span></div>
-                <div class="eighth_banner"><span>использования CRM</span></div>
-                <div class="button"><span>Получить консультацию</span></div>
+                <div class="banner">
+                    <h3>DASHBOARD</h3>
+                    <h4>с показателями вашего бизнеса</h4>
+                </div>
+                <div class="banner">
+                    <h3>SKYPE АУДИТ</h3>
+                    <h4>отдела продаж и CRM системы</h4>
+                </div>
+                <div class="banner">
+                    <h3>35 ДНЕЙ</h3>
+                    <h4>использования CRM</h4>
+                </div>
+
+                <div class="banner_mobile">
+                    <div class="banner_mobile_part">
+                        <div class="line_banner"></div>
+                        <h3>SKYPE АУДИТ</h3>
+                    </div>
+                    <div class="banner_mobile_part">
+                        <div class="line_banner"></div>
+                        <h3>30 ВИДЖЕТОВ</h3>
+                    </div>
+                    <div class="banner_mobile_part">
+                        <div class="line_banner"></div>
+                        <h3>DASHBOARD</h3>
+                    </div>
+                    <div class="banner_mobile_part">
+                        <div class="line_banner"></div>
+                        <h3>МЕСЯЦ AMOCRM</h3>
+                    </div>
+
+
+                </div>
             </div>
+            <button>Получить консультацию</button>
         </div>
     </section>
 
@@ -89,8 +110,9 @@
         <div class="menu">
             <span>МЕНЮ</span>
             <div class="menu_content">
-                <a>Расчёт стоимости</a>
-                <a class="menu_content_mobile">Благодарность клиентов</a>
+                <a class="menu_content_pc">Расчёт стоимости</a>
+                <a class="menu_content_mobile">Расчёт <br/>стоимости</a>
+                <a class="menu_content_mobile">Благодарность<br/>клиентов</a>
                 <a>Кейсы</a>
                 <a>Услуги</a>
                 <a class="menu_content_pc">Благодарственные письма</a>
@@ -105,29 +127,34 @@
         <div class="contacts">
             <span>КОНТАКТЫ</span>
             <div class="contacts_content">
-                <div class="telephone"><span>+7 555 555-55-55</span></div>
-                <div class="links_contacts">
-                    <a><img class="logo" src="assets/telegram.png"> </a>
-                    <a><img class="logo" src="assets/viber.png"></a>
-                    <a><img class="logo" src="assets/whatsapp.png"></a>
+                <a class="telephone_number" href="tel:+7555-555-55-55">+7 555 555-55-55</a>
+                <div>
+                    <a href="https://t.me/sssworksss"><img alt="Картинка не загружена" src="assets/telegram.png"> </a>
+                    <a href="viber://chat?number=%+79992253720"><img alt="Картинка не загружена" src="assets/viber.png"></a>
+                    <a href="https://wa.me/971583048178?text=Здравствуйте, Сергей.%20Вы%20выполнили%20тестовое%20AMO_CRM."><img
+                            alt="Картинка не загружена" src="assets/whatsapp.png"></a>
                 </div>
-                <div class="address"><span>Москва, Путевой проезд 3с1, к 902</span></div>
+                <span>Москва, Путевой проезд 3с1, к 902</span>
                 <div class="privy_policy">
-                    <span>©WELBEX 2022. Все права защищены.</span>
-                    <span class="privy_policy_end">Политика конфиденциальности</span>
+                    <p class="privy_policy_start">©WELBEX 2022. Все права защищены.</p>
+                    <p class="privy_policy_end">Политика конфиденциальности</p>
                 </div>
             </div>
         </div>
-        <div class="balls">
-            <div class="red_light"></div>
-            <div class="purple_light"></div>
-            <div class="red_ball"><img src="assets/red_ball.png"></div>
-            <div class="red_ball_little"><img src="assets/red_ball.png"></div>
-            <div class="purple_ball"><img src="assets/purple_ball.png"></div>
-            <div class="noise"><img src="assets/noise.png"></div>
-        </div>
+
 
     </section>
-</main>
+</div>
+
+<div class="balls">
+    <div class="red_light"></div>
+    <div class="purple_light"></div>
+    <div class="red_ball"><img src="assets/red_ball.png"></div>
+    <div class="red_ball_little"><img src="assets/red_ball.png"></div>
+    <div class="purple_ball"><img src="assets/purple_ball.png"></div>
+    <div class="noise"><img src="assets/noise.png"></div>
+</div>
+
 </body>
 </html>
+

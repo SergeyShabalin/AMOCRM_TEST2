@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&display=swap');
+
+:root {
+    --main-font: Inter;
+    --second-font: Montserrat;
+    --main_background: #0d0f13;
+    --main-color: #E4E5EA;
+    --button-color: #4077F3;
+    --standart-size: 10px;
+    --color-footer-titles: #656566;
+    --red-light-background: #961A1A;
+    --purple-light-background: #833AB4;
+    --fill-red: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(255, 208, 208, 0.54) 0%, rgba(212, 93, 93, 0.26) 59.67%, rgba(167, 49, 49, 0.25) 78.59%, rgba(130, 25, 25, 0.25) 100%);
+    --fill-purple: radial-gradient(82.30% 82.30% at 27.25% 26.50%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.21) 78.59%, rgba(86, 24, 128, 0.23) 100%);
+    --line_banner: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+}
