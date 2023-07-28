@@ -407,6 +407,10 @@ body {
         margin-top: 30px;
     }
 
+    .header, .menu_important {
+        width: 100%;
+    }
+
     .title_banner_right_free {
         justify-self: start;
     }
@@ -537,9 +541,7 @@ body {
         font-size: var(--standart-size-mobile-mini);
     }
 
-    .header, .menu_important {
-        width: 100%;
-    }
+
 
     .links {
         grid-template-columns: repeat(4, min-content);
