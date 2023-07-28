@@ -7,7 +7,10 @@
     --main_background: #0d0f13;
     --main-color: #E4E5EA;
     --button-color: #4077F3;
-    --standart-size: 10px;
+    --standart-size: 16px;
+    --standart-size-table: 22px;
+    --standart-size-mobile: 18px;
+    --standart-size-mobile-mini: 14px;
     --color-footer-titles: #656566;
     --red-light-background: #961A1A;
     --purple-light-background: #833AB4;
