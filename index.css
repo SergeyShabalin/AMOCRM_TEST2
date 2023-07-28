@@ -1,7 +1,3 @@
-html {
-    font-size: var(--standart-size);
-}
-
 body {
     background: var(--main_background);
     font-family: var(--main-font);
@@ -9,95 +5,9 @@ body {
     position: relative;
 }
 
-h1, h2, h3 {
-    color: var(--main-color);
-    text-decoration: none;
-    margin: 0;
-    line-height: normal;
-    font-style: normal;
-}
-
-h1 {
-    font-size: 3.2rem;
-    font-weight: 400;
-    font-family: var(--main-font);
-}
-
-h2 {
-    font-family: var(--second-font);
-    font-size: 1.2rem;
-    font-weight: 400;
-}
-
-h3 {
-    font-family: var(--main-font);
-    font-size: 1.2rem;
-    font-weight: 500;
-}
-
-h4 {
-    color: #E4E5EA;
-    font-family: var(--second-font);
-    font-size: 1rem;
-    font-weight: 300;
-    margin-top: 5px;
-    margin-bottom: 30px;
-}
-
-p {
-    font-size: 0.7rem;
-    color: var(--main-color);
-    font-family: var(--second-font);
-    font-weight: 300;
-}
-
-a {
-    transition: ease-in-out 0.4s;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    text-decoration: none;
-    color: var(--main-color);
-    white-space: nowrap;
-
-}
-
-a:hover {
-    cursor: pointer;
-    color: var(--button-color);
-}
-
-a:first-child {
-    margin-left: 0;
-}
-
-a:last-child {
-    margin-right: 0;
-}
-
-
 .content {
     position: absolute;
     z-index: 2;
-}
-
-
-button {
-    background: var(--button-color);
-    color: var(--main-color);
-    font-family: var(--second-font);
-    font-size: 1.1rem;
-    padding: 25px 30px;
-    margin: 30px 0 30px 0;
-    border: none;
-    transition: ease-in-out 0.5s;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-
-button:hover {
-    cursor: pointer;
-    box-shadow: 0 0 2px 2px var(--button-color);
 }
 
 .header {
@@ -227,17 +137,9 @@ button:hover {
 
 
 .footer {
-    margin-top: 80px;
+    margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-}
-
-.company, .menu, .contacts {
-    color: var(--color-footer-titles);
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 0.7px;
-    margin-bottom: 10px;
 }
 
 .contacts {
@@ -307,14 +209,14 @@ button:hover {
     height: 310px;
     background: var(--red-light-background);
     top: 30%;
-    left: -20%;
+    right: 95%;
 }
 
 .purple_light {
     width: 260px;
     height: 260px;
     background: var(--purple-light-background);
-    top: -15%;
+    bottom: 80%;
     left: 40%;
 }
 
@@ -341,7 +243,7 @@ button:hover {
 }
 
 .purple_ball {
-    top: -1%;
+    bottom: 95%;
     left: 55%;
     width: 60px;
     height: 60px;
@@ -356,6 +258,9 @@ button:hover {
 
 
 @media screen and (max-width: 1401px) {
+    body {
+        margin: 0 10vw;
+    }
     a {
         font-size: 1rem;
     }
@@ -401,6 +306,7 @@ button:hover {
         left: 0;
         margin: 0;
         display: flex;
+
     }
 
     .menu_important {
@@ -414,7 +320,7 @@ button:hover {
 
     .links {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .links > a {
@@ -477,7 +383,11 @@ button:hover {
     }
 
     .links_media > a {
-        margin: 10px 5px;
+        margin: 20px 5px;
+    }
+
+    .links_media > a:first-child {
+        margin-left: 0;
     }
 
     .banners {
@@ -596,7 +506,7 @@ button:hover {
         width: 200px;
         height: 200px;
         border-radius: 100%;
-        top: -20vh;
+        bottom: 65vh;
         right: 80vw;
         display: flex;
         background: #00ffd0;
